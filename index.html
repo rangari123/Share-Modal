@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>tailwind css</title>
+</head>
+
+<body class="bg-zinc-500 flex justify-center items-center  h-screen ">
+    <main class="flex justify-center items-center font-Poppins bg-zinc-100 relative rounded-lg w-fit	px-8 h-fit">
+        <!-- cross -->
+        <div class="absolute top-8 right-8">
+            <i class="fa-solid fa-xmark font-extrabold text-2xl text-gray-500 cursor-pointer"></i>
+        </div>
+        <!-- container -->
+        <div class="bg-zinc-100 m-5 p-5">
+            <!-- title -->
+            <header class="text-center mb-8 mt-3">
+                <h1 class="font-bold text-3xl mb-2 ">Share this article</h1>
+                <p class="sub">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Temporibus, porro?
+                </p>
+            </header>
+            <!-- content -->
+            <div class=" flex justify-between gap-5  ">
+
+                <div class="bg-blue-800 px-4 py-3 rounded-lg text-white  cursor-pointer">
+                    <i class="fa-brands fa-facebook-f text-2xl"></i>
+                    <label class="ml-2 text-lg">Facebook</label>
+                </div>
+                <div class="bg-blue-500 px-4 py-3 rounded-lg text-white cursor-pointer">
+                    <i class="fa-brands fa-twitter text-2xl"></i>
+                    <label class="ml-2 text-lg">Twitter</label>
+                </div>
+                <div class="bg-black px-6 py-3 rounded-lg text-white cursor-pointer">
+                    <i class="fa-brands fa-reddit-alien text-xl"></i>
+                    <label class="ml-2 text-lg">Reddit</label>
+                </div>
+            </div>
+            <!-- footer -->
+            <footer>
+                <p class="text-center mt-6 mb-9">
+                    <span class="font-bold">4,5k</span>
+                    Shares
+                </p>
+                <p class="text-center text-red-500 font-medium cursor-pointer">
+                    Close this window
+                </p>
+            </footer>
+
+        </div>
+    </main>
+</body>
+
+</html>
